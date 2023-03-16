@@ -55,3 +55,16 @@ function newCard() {
     renderGame();
   }
 }
+
+let person = {
+  name: 'hamisu',
+  age: '25',
+  country: 'ghana'
+}
+
+function logData() {
+  let sen = person.name + ' is' + person.age + ' years old and lives in ' + person.country
+  console.log(sen)
+}
+
+logData()
